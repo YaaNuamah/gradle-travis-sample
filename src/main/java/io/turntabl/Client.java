@@ -14,14 +14,13 @@ public class Client
         Lvl = lvl;
     }
 
-
     @Override
     public ServiceLevel getServiceLevel() {
-        return null;
+        return Lvl;
     }
 
     @Override
     public String getName() {
-        return null;
+        return ClientName;
     }
 }
