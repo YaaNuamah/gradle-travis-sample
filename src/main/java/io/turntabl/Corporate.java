@@ -2,7 +2,7 @@ package io.turntabl;
 
 import java.util.List;
 
-public class Corporate {
+public class Corporate extends Client{
     public String AccountManagerName;
     public int CorpID;
     public ServiceLevel Lvl;
