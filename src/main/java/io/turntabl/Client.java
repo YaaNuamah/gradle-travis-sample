@@ -1,7 +1,7 @@
 package io.turntabl;
 
 public class Client
-        implements Nameable, HasServiceLevel
+        implements Nameable, HasServiceLevel, HasID
 {
 
     private String ClientName;
@@ -22,5 +22,10 @@ public class Client
     @Override
     public String getName() {
         return ClientName;
+    }
+
+    @Override
+    public int getID() {
+        return ClientID;
     }
 }
