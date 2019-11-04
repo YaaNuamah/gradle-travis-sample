@@ -12,7 +12,7 @@ public class ClientRegister {
     }
 
     public List<String> getClientRegister(ServiceLevel lvl) {
-        return clients.stream().filter(client-> client.getServiceLevel() == lvl)
+        return clients.stream().filter(client-> client.getServiceLevel() == lvl.GOLD)
                 .map(Client::getName)
                 .collect(Collectors.toList());
     }
