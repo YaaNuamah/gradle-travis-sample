@@ -1,7 +1,5 @@
 package io.turntabl;
 
-import com.sun.security.ntlm.Client;
-
 import java.util.List;
 
 public class Corporate {
@@ -19,5 +17,19 @@ public class Corporate {
     }
 
     public String getAccountManagerNameName() {return AccountManagerName; }
+
+    public int getCorpID() { return CorpID; }
+
+    public ServiceLevel getLvl() { return Lvl; }
+
+    @Override
+    public String toString() {
+        return "Corporate{" +
+                "AccountManagerName='" + AccountManagerName + '\'' +
+                ", CorpID=" + CorpID +
+                ", Lvl=" + Lvl +
+                ", clients=" + clients +
+                '}';
+    }
 }
 
