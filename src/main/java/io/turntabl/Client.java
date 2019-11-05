@@ -3,7 +3,6 @@ package io.turntabl;
 public class Client
         implements Nameable, HasServiceLevel, HasID
 {
-
     private String ClientName;
     private int ClientID;
     private ServiceLevel Lvl;
